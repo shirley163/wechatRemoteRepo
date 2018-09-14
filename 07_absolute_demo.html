@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    .div1 {
+        width: 565px;
+        height: 341px;
+        background: url(123.png) no-repeat;
+        position: relative;
+    }
+
+    .div1>div {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background: rgba(0, 0, 0, 0.8);
+        text-indent: 10px;
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        display: none;
+    }
+
+    .div1:hover>div {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 绝对定位demo -->
+    <div class="div1">
+        <div>这是味多美的新蛋糕,都来买吧</div>
+    </div>
+</body>
+
+</html>
